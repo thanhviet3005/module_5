@@ -1,0 +1,8 @@
+<p>Color picker</p>
+<div class="form-check-inline">
+  <label>Choose color </label>
+  <input [value]="color" type="color"  (change)="onChangeColor($event.target.value)">
+</div>
+<p>Output</p>
+<div class="color-preview" [style.background]="color"></div>
+
