@@ -1,0 +1,15 @@
+<p>hacker-news-create works!</p>
+<form [formGroup]="articleForm" (ngSubmit)="onSubmit()">
+  <p>
+    <label for="title">Title </label>
+    <input id="title" type="text" formControlName="title" name="titleNew">
+  </p>
+  <p>
+    <label for="url">Url </label>
+    <input id="url" type="text" formControlName="url" name="urlNew">
+  </p>
+  <input type="submit" value="Submit">
+</form>
+<button (click)="sendToUpdate()">Click me!</button>
+
+

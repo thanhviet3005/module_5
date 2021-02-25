@@ -1,0 +1,18 @@
+<app-rating-bar [max]="10" (rateChange)="onRateChange($event)"></app-rating-bar>
+<app-countdown-timer-event-alias
+  seconds="10"
+  (timerEnd)="endCountdown()">
+</app-countdown-timer-event-alias>
+<p>{{ countdownAliasMsg }}</p>
+<app-countdown-timer-alias remaining-time="16"></app-countdown-timer-alias>
+<app-countdown-timer-onchanges seconds="4"></app-countdown-timer-onchanges>
+<app-countdown-timer-get-set seconds="8"></app-countdown-timer-get-set>
+<app-coundown-timer [seconds]="6"></app-coundown-timer>
+<app-progress-bar width="30"></app-progress-bar>
+<app-name-card cardName="Professional Dev" email="prodev@abc.xyz" phone="0123456789"></app-name-card>
+
+
+
+
+
+
