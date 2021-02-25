@@ -1,0 +1,20 @@
+header{
+  border:0px solid #ccc;
+  background-color:#73ad21;
+  color:white;
+  text-align:center;
+  padding-bottom:0px;
+}
+
+main{
+  padding:20px;
+  text-align: justify;
+}
+
+footer{
+  background-color:#ccc;
+  text-align:center;
+  padding:0px;
+  font-size:15px;
+}
+
